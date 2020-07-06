@@ -1,32 +1,35 @@
 import React, { Fragment } from "react";
-import PropTypes from "prop-types";
+import { Parallax } from "react-parallax";
 import { Box } from "@material-ui/core";
 import Typed from "react-typed";
 import "./Landing.css";
+import image from "./galaxy.jpg";
 
 const Landing = () => {
   return (
     <Fragment>
-      <Box className="landing-background">
-        <Box className="landing-header">
-          <h1>Hello World!</h1>
-          <h1>I am Jamie Brown</h1>
+      <Parallax
+        bgImage={image}
+        strength={600}
+        style={{ padding: "50px", margin: 0 }}
+      >
+        <Box className="landing-background">
+          <Box className="landing-header">
+            <h1>Hello World!</h1>
+            <h1>I am Jamie Brown</h1>
+          </Box>
+          <Box className="landing-type">
+            <Typed
+              strings={["Avid coder", "Web developer", "Weirdo"]}
+              typeSpeed={50}
+              backSpeed={50}
+              loop="loop"
+            />
+          </Box>
         </Box>
-        <Box className="landing-search">
-          <Typed
-            strings={["Programmer", "Web developer", "Weirdo"]}
-            typeSpeed={50}
-            backSpeed={50}
-            startDelay={1200}
-          />
-        </Box>
-      </Box>
+      </Parallax>
     </Fragment>
   );
-};
-
-Landing.propTypes = {
-  title: PropTypes.string,
 };
 
 export default Landing;
