@@ -23,6 +23,7 @@ const Landing = () => {
               strings={["Avid coder", "Web developer", "Weirdo"]}
               typeSpeed={50}
               backSpeed={50}
+              startDelay={500}
               loop="loop"
             />
           </Box>
