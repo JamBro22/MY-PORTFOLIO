@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb186815c01eda779c47048ec311cdf3",
+    "revision": "46ed930fb052b63f5903cf6f2ea4bb96",
     "url": "/MY-PORTFOLIO/index.html"
   },
   {
-    "revision": "31f38844043464f436cc",
-    "url": "/MY-PORTFOLIO/static/css/main.2e794d2a.chunk.css"
+    "revision": "42af9fa9fe021b25a93c",
+    "url": "/MY-PORTFOLIO/static/css/main.a09344dd.chunk.css"
   },
   {
-    "revision": "c9c1fe461403655c9841",
-    "url": "/MY-PORTFOLIO/static/js/2.0f4cd3c9.chunk.js"
+    "revision": "eb01a755b6e3427bdb71",
+    "url": "/MY-PORTFOLIO/static/js/2.6319603f.chunk.js"
   },
   {
     "revision": "84f48c9a090ba2f8cc4a11e48dd3dad0",
-    "url": "/MY-PORTFOLIO/static/js/2.0f4cd3c9.chunk.js.LICENSE.txt"
+    "url": "/MY-PORTFOLIO/static/js/2.6319603f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31f38844043464f436cc",
-    "url": "/MY-PORTFOLIO/static/js/main.54a24fcc.chunk.js"
+    "revision": "42af9fa9fe021b25a93c",
+    "url": "/MY-PORTFOLIO/static/js/main.4e8e3c4f.chunk.js"
   },
   {
     "revision": "c8a514423236b7ed12c9",
     "url": "/MY-PORTFOLIO/static/js/runtime-main.e83d41ca.js"
+  },
+  {
+    "revision": "82fab5ee97c4aec9347b2d0ff3af15cb",
+    "url": "/MY-PORTFOLIO/static/media/cactus.82fab5ee.jpg"
   },
   {
     "revision": "ec5e7062f23911a25c4412045786c6cd",
@@ -32,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MY-PORTFOLIO/static/media/galaxy.df95af7d.jpg"
   },
   {
-    "revision": "0696bb143fa877b0ca5f1d5a663490d4",
-    "url": "/MY-PORTFOLIO/static/media/github-finder.0696bb14.jpg"
+    "revision": "9a5ec897866af439f306ec678dcdf835",
+    "url": "/MY-PORTFOLIO/static/media/github-finder.9a5ec897.jpg"
   },
   {
-    "revision": "0b7dfab188b80b8ea3da57867daa57b1",
-    "url": "/MY-PORTFOLIO/static/media/logging.0b7dfab1.jpg"
+    "revision": "1925626aaff8e1b97174c0d1c259e92f",
+    "url": "/MY-PORTFOLIO/static/media/logging.1925626a.jpg"
   },
   {
     "revision": "17ebb45e8b5f6eb484a985027ae720f8",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab0940a397ee9f3f8326c5dbc05d8a53",
     "url": "/MY-PORTFOLIO/static/media/profile.ab0940a3.jpg"
+  },
+  {
+    "revision": "e00418db1880da0f733a83017fd0e506",
+    "url": "/MY-PORTFOLIO/static/media/purple-galaxy.e00418db.jpg"
   },
   {
     "revision": "e8bf1615a3e73a03b386eaf04431e0e2",
