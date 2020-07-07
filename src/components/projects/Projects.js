@@ -58,14 +58,20 @@ const Projects = () => {
                   alt="Rocket Contact Keeper"
                   className={classes.img}
                 />
-                <Button
-                  variant="outlined"
-                  size="medium"
-                  fullWidth
-                  className={classes.button}
+                <a
+                  href="https://cryptic-plains-10912.herokuapp.com/login#!"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  View
-                </Button>
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    fullWidth
+                    className={classes.button}
+                  >
+                    View
+                  </Button>
+                </a>
               </Box>
             </Grid>
             <Grid item md={4}>
