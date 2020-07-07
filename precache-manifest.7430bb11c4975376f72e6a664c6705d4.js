@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b96789c9257b6ca6fed776457417156",
+    "revision": "dd37738b43e579fca2000f5cd36a4851",
     "url": "/MY-PORTFOLIO/index.html"
   },
   {
-    "revision": "2a709d77af29d15c0989",
+    "revision": "c912fdd254e9d4edb2fa",
     "url": "/MY-PORTFOLIO/static/css/main.a94cb733.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MY-PORTFOLIO/static/js/2.6319603f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a709d77af29d15c0989",
-    "url": "/MY-PORTFOLIO/static/js/main.8cf4b1e2.chunk.js"
+    "revision": "c912fdd254e9d4edb2fa",
+    "url": "/MY-PORTFOLIO/static/js/main.2f783c52.chunk.js"
   },
   {
     "revision": "c8a514423236b7ed12c9",
@@ -40,10 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MY-PORTFOLIO/static/media/github-finder.9a5ec897.jpg"
   },
   {
-    "revision": "1925626aaff8e1b97174c0d1c259e92f",
-    "url": "/MY-PORTFOLIO/static/media/logging.1925626a.jpg"
-  },
-  {
     "revision": "17ebb45e8b5f6eb484a985027ae720f8",
     "url": "/MY-PORTFOLIO/static/media/northern-lights.17ebb45e.jpg"
   },
@@ -58,5 +54,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8bf1615a3e73a03b386eaf04431e0e2",
     "url": "/MY-PORTFOLIO/static/media/rocketContacts.e8bf1615.jpg"
+  },
+  {
+    "revision": "557acfa2e492387f84d8efb3abff4a23",
+    "url": "/MY-PORTFOLIO/static/media/todo.557acfa2.jpg"
   }
 ]);
