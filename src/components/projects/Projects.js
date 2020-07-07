@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax";
 import image from "./project-images/northern-lights.jpg";
 import project1 from "./project-images/github-finder.jpg";
 import project2 from "./project-images/rocketContacts.jpg";
-import project3 from "./project-images/logging.jpg";
+import project3 from "./project-images/todo.jpg";
 import "../../App.css";
 import "./Projects.css";
 
@@ -76,19 +76,21 @@ const Projects = () => {
             </Grid>
             <Grid item md={4}>
               <Box className="box">
-                <img
-                  src={project3}
-                  alt="Logging System"
-                  className={classes.img}
-                />
-                <Button
-                  variant="outlined"
-                  size="medium"
-                  fullWidth
-                  className={classes.button}
+                <img src={project3} alt="Todo List" className={classes.img} />
+                <a
+                  href="https://suspicious-wing-b19024.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  View
-                </Button>
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    fullWidth
+                    className={classes.button}
+                  >
+                    View
+                  </Button>
+                </a>
               </Box>
             </Grid>
           </Grid>
