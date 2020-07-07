@@ -42,7 +42,7 @@ const AboutMe = () => {
       <Parallax bgImage={image} strength={700}>
         <Box className="about-background">
           <Grid container spacing={2}>
-            <Grid item md={6}>
+            <Grid item xs={12} md={6}>
               <Paper className={classes.paper}>
                 <img
                   src={profile}
@@ -54,7 +54,7 @@ const AboutMe = () => {
                 <h2>Location: Steenberg/Retreat, Cape town</h2>
               </Paper>
             </Grid>
-            <Grid item md={6}>
+            <Grid item xs={12} md={6}>
               <Paper className={classes.paper}>
                 <h2>Bio</h2>
                 <p>
@@ -71,7 +71,7 @@ const AboutMe = () => {
                 <p>Playing board games</p>
               </Paper>
             </Grid>
-            <Grid item md={12}>
+            <Grid item xs={12}>
               <Paper className={classes.paper}>
                 <h2>Skills</h2>
                 <Box className={classes.skill}>
