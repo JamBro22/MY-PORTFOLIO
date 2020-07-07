@@ -39,7 +39,7 @@ const AboutMe = () => {
   return (
     <Fragment>
       <h1 className="header">About Me</h1>
-      <Parallax bgImage={image} strength={500}>
+      <Parallax bgImage={image} strength={700}>
         <Box className="about-background">
           <Grid container spacing={2}>
             <Grid item md={6}>
