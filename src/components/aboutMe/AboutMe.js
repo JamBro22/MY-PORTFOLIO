@@ -13,13 +13,24 @@ const AboutMe = () => {
       height: "100%",
       textAlign: "center",
       color: "#191970",
-      padding: "10px",
+      padding: "20px",
     },
     profile: {
       height: "150px",
       width: "120px",
       borderRadius: "50%",
       border: "2px solid black",
+      marginBottom: "10px",
+    },
+    skill: {
+      backgroundColor: "grey",
+      borderRadius: "20px",
+      opacity: "0.8",
+      height: "30px",
+      textAlign: "left",
+      padding: "4px",
+      marginLeft: "auto",
+      marginBottom: "8px",
     },
   });
 
@@ -27,7 +38,7 @@ const AboutMe = () => {
 
   return (
     <Fragment>
-      <h1 className="about-header">About Me</h1>
+      <h1 className="header">About Me</h1>
       <Parallax bgImage={image} strength={500}>
         <Box className="about-background">
           <Grid container spacing={2}>
@@ -38,12 +49,9 @@ const AboutMe = () => {
                   alt="Jamie Brown"
                   className={classes.profile}
                 />
-                <h2>
-                  <strong>Age: </strong>23 years
-                </h2>
-                <h2>
-                  <strong>Location: </strong>Steenberg/Retreat, Cape town
-                </h2>
+                <h2>Full Name: Jamie Brown</h2>
+                <h2>Age: 23 years</h2>
+                <h2>Location: Steenberg/Retreat, Cape town</h2>
               </Paper>
             </Grid>
             <Grid item md={6}>
@@ -56,6 +64,41 @@ const AboutMe = () => {
                   doubt yourself', through which it should be known that I'll
                   never give up, never surrender."
                 </p>
+                <h2>Hobbies</h2>
+                <p>Reading and writing</p>
+                <p>Drawing</p>
+                <p>Doing various puzzles</p>
+                <p>Playing board games</p>
+              </Paper>
+            </Grid>
+            <Grid item md={12}>
+              <Paper className={classes.paper}>
+                <h2>Skills</h2>
+                <Box className={classes.skill}>
+                  <Box className="bar html">
+                    <h3>HTML</h3>
+                  </Box>
+                </Box>
+                <Box className={classes.skill}>
+                  <Box className="bar css">
+                    <h3>CSS</h3>
+                  </Box>
+                </Box>
+                <Box className={classes.skill}>
+                  <Box className="bar javascript">
+                    <h3>JavaScript</h3>
+                  </Box>
+                </Box>
+                <Box className={classes.skill}>
+                  <Box className="bar python">
+                    <h3>Python</h3>
+                  </Box>
+                </Box>
+                <Box className={classes.skill}>
+                  <Box className="bar react">
+                    <h3>React</h3>
+                  </Box>
+                </Box>
               </Paper>
             </Grid>
           </Grid>
