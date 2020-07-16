@@ -18,7 +18,9 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <Fragment>
-        <h1 className="header">Contact Me</h1>
+        <h1 className="header" id="contact">
+          Contact Me
+        </h1>
         <Parallax bgImage={image} strength={500}>
           <Box className="contact-background form">
             <form
@@ -28,26 +30,42 @@ export default class MyForm extends React.Component {
             >
               <Grid container spacing={2} className="grid">
                 <Grid item md={12}>
-                  <label className="label">Name:</label>
-                  <input type="text" name="name" />
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    className="input"
+                  />
                 </Grid>
                 <Grid item md={12}>
-                  <label className="label">Organisation:</label>
-                  <input type="text" name="organisation" />
+                  <input
+                    type="text"
+                    name="organisation"
+                    placeholder="Organisation"
+                    className="input"
+                  />
                 </Grid>
                 <Grid item md={12}>
-                  <label className="label">Email:</label>
-                  <input type="email" name="email" />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    className="input"
+                  />
                 </Grid>
                 <Grid item md={12}>
-                  <label className="label">Message:</label>
-                  <input type="text" name="message" />
+                  <input
+                    type="text"
+                    name="message"
+                    placeholder="Message"
+                    className="input msg"
+                  />
                 </Grid>
                 <Grid item md={12}>
                   {status === "SUCCESS" ? (
-                    <p>Thanks!</p>
+                    <p className="input">Thanks!</p>
                   ) : (
-                    <button>Submit</button>
+                    <button className="btn">Submit</button>
                   )}
                   {status === "ERROR" && <p>Ooops! There was an error.</p>}
                 </Grid>

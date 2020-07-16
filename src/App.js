@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import Navbar from "./components/navbar/Navbar";
 import Landing from "./components/landing/Landing";
 import { CssBaseline } from "@material-ui/core";
 import AboutMe from "./components/aboutMe/AboutMe";
@@ -13,8 +14,9 @@ function App() {
     <Fragment>
       <CssBaseline />
       <Landing />
-      <AboutMe />
+      <Navbar />
       <Projects />
+      <AboutMe />
       <Testimonials />
       <ContactMe />
       <Footer />

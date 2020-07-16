@@ -21,7 +21,9 @@ const Testimonials = () => {
 
   return (
     <Fragment>
-      <h1 className="header">Testimonials</h1>
+      <h1 className="header" id="testimonials">
+        Testimonials
+      </h1>
       <Parallax bgImage={image} strength={700}>
         <Box className="testimonials-background">
           <Grid container spacing={2}>

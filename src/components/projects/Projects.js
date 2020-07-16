@@ -24,7 +24,9 @@ const Projects = () => {
 
   return (
     <Fragment>
-      <h1 className="header">Projects</h1>
+      <h1 className="header" id="projects">
+        Projects
+      </h1>
       <Parallax bgImage={image} strength={500}>
         <Box className="projects-background">
           <Grid container spacing={2}>

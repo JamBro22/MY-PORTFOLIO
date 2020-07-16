@@ -38,7 +38,9 @@ const AboutMe = () => {
 
   return (
     <Fragment>
-      <h1 className="header">About Me</h1>
+      <h1 className="header" id="about">
+        About Me
+      </h1>
       <Parallax bgImage={image} strength={700}>
         <Box className="about-background">
           <Grid container spacing={2}>

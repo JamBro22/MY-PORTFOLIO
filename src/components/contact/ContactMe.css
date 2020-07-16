@@ -1,18 +1,87 @@
 .contact-background {
   height: 100%;
   width: 100%;
-  padding: 30px;
+  padding: 5% 30%;
 }
 
-.form {
+.grid {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(123, 174, 229, 0.7);
+  border: none;
+  border-radius: 20px;
+  padding: 40px 30px;
   text-align: center;
 }
 
-.label {
-  text-decoration: underline;
-  font-weight: bold;
+.input {
+  color: rgb(255, 251, 235);
+  background-color: rgba(37, 37, 63, 0.5);
+  text-align: center;
+  width: 80%;
+  height: 30px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 6px 6px 14px 0px rgba(0, 0, 0, 0.75);
 }
-.grid {
-  background-color: rgb(123, 174, 229, 0.7);
-  border: 1px solid black;
+
+.input::placeholder {
+  color: rgba(255, 251, 235, 0.8);
+}
+
+.msg {
+  height: 100px;
+}
+
+.btn {
+  background-color: rgb(37, 37, 63);
+  color: rgb(255, 251, 235);
+  width: 80%;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 6px 6px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+.thank {
+  background-color: rgba(37, 37, 63, 0.5);
+  color: rgb(255, 251, 235);
+  font-size: x-large;
+  text-decoration: underline;
+  padding: 5px;
+  width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-background {
+    height: 100%;
+    width: 100%;
+    padding: 10% 20%;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(123, 174, 229, 0.7);
+    border: none;
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .input {
+    text-align: center;
+    width: 80%;
+    height: 30px;
+  }
+
+  .msg {
+    height: 100px;
+  }
+
+  .btn {
+    width: 80%;
+  }
 }
