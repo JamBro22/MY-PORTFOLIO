@@ -1,11 +1,17 @@
 .projects-background {
-  height: 100%;
-  width: 100%;
-  padding: 30px;
+  padding: 60px 150px;
 }
 
 .box {
   border: 1px solid black;
-  padding: 5px;
-  background-color: #00e193;
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+  background-color: #1f2325;
+}
+
+@media only screen and (max-width: 600px) {
+  .projects-background {
+    padding: 5% 10% 5% 10%;
+  }
 }

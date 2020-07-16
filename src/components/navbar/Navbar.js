@@ -6,7 +6,7 @@ const navItems = ["Home", "Projects", "About Me", "Testimonials", "Contact"];
 const Navbar = () => {
   return (
     <nav className="nav">
-      <h1 className="archivo">Jamie Brown</h1>
+      <h1 className="archivo shadow">Jamie Brown</h1>
       <ul className="nav-list">
         {navItems.map((item) => {
           return item === "Contact" ? (
