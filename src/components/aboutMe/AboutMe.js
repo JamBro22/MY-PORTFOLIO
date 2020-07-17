@@ -29,7 +29,7 @@ const AboutMe = () => {
       textAlign: "left",
       padding: "4px",
       marginLeft: "auto",
-      marginBottom: "8px",
+      marginBottom: "10px",
     },
   });
 
@@ -40,18 +40,24 @@ const AboutMe = () => {
       <h1 className="header">About Me</h1>
       <Box className="background about-background" id="about">
         <Grid container spacing={2}>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12}>
             <Paper className={classes.paper}>
-              <img
-                src={profile}
-                alt="Jamie Brown"
-                className={classes.profile}
-              />
-              <h2 className="details">Full Name: Jamie Brown</h2>
-              <h2 className="details">Age: 23 years</h2>
-              <h2 className="details">
-                Location: Steenberg/Retreat, Cape town
-              </h2>
+              <Grid container>
+                <Grid item sm={6}>
+                  <img
+                    src={profile}
+                    alt="Jamie Brown"
+                    className={classes.profile}
+                  />
+                </Grid>
+                <Grid item sm={6}>
+                  <h2 className="details">Full Name: Jamie Brown</h2>
+                  <h2 className="details">Age: 23 years</h2>
+                  <h2 className="details">
+                    Location: Steenberg/Retreat, Cape town
+                  </h2>
+                </Grid>
+              </Grid>
             </Paper>
           </Grid>
           <Grid item xs={12} md={6}>
@@ -71,31 +77,34 @@ const AboutMe = () => {
               <p>Playing board games</p>
             </Paper>
           </Grid>
-          <Grid item xs={12}>
+          <Grid item xs={12} md={6}>
             <Paper className={classes.paper}>
               <h2 className="details">Skills</h2>
-              <Box className={classes.skill}>
-                <Box className="bar html">
+              <Box>
+                <Box>
                   <h3>HTML</h3>
                 </Box>
               </Box>
-              <Box className={classes.skill}>
-                <Box className="bar css">
+              <Box>
+                <Box>
                   <h3>CSS</h3>
                 </Box>
               </Box>
-              <Box className={classes.skill}>
-                <Box className="bar javascript">
+              <Box>
+                <Box>
                   <h3>JavaScript</h3>
                 </Box>
               </Box>
-              <Box className={classes.skill}>
-                <Box className="bar python">
+              <Box>
+                <Box>
                   <h3>Python</h3>
                 </Box>
               </Box>
-              <Box className={classes.skill}>
-                <Box className="bar react">
+              <Box>
+                <Box>
+                  <h3>Bootstrap</h3>
+                </Box>
+                <Box>
                   <h3>React</h3>
                 </Box>
               </Box>
