@@ -58,18 +58,22 @@
   .nav {
     height: auto;
     flex-direction: column;
-  }
-
-  .archivo {
-    width: 70%;
-    margin: 5% auto;
-    text-align: center;
+    z-index: 2;
+    position: fixed;
+    bottom: 0%;
+    top: auto;
   }
 
   .nav-list {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 10% auto;
+    margin: 7% auto;
+    font-size: small;
+    margin: 0 auto;
+  }
+
+  .archivo {
+    margin: 7% auto;
+    text-align: center;
+    width: 70%;
   }
 
   .nav-item {

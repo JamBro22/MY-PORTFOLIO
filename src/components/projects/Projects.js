@@ -24,74 +24,76 @@ const Projects = () => {
   return (
     <Fragment>
       <h1 className="header">Projects</h1>
-      <Box className="background projects-background" id="projects">
-        <Grid container spacing={2}>
-          <Grid item md={4}>
-            <Box className="box">
-              <img
-                src={project1}
-                alt="Github Account Finder"
-                className={classes.img}
-              />
-              <a
-                href="https://githubfinder895.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button
-                  variant="outlined"
-                  size="medium"
-                  fullWidth
-                  className={classes.button}
+      <Box>
+        <Box className="background projects-background" id="projects">
+          <Grid container spacing={2}>
+            <Grid item md={4}>
+              <Box className="box">
+                <img
+                  src={project1}
+                  alt="Github Account Finder"
+                  className={classes.img}
+                />
+                <a
+                  href="https://githubfinder895.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  View
-                </Button>
-              </a>
-            </Box>
-          </Grid>
-          <Grid item md={4}>
-            <Box className="box">
-              <img
-                src={project2}
-                alt="Rocket Contact Keeper"
-                className={classes.img}
-              />
-              <a
-                href="https://cryptic-plains-10912.herokuapp.com/login#!"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button
-                  variant="outlined"
-                  size="medium"
-                  fullWidth
-                  className={classes.button}
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    fullWidth
+                    className={classes.button}
+                  >
+                    View
+                  </Button>
+                </a>
+              </Box>
+            </Grid>
+            <Grid item md={4}>
+              <Box className="box">
+                <img
+                  src={project2}
+                  alt="Rocket Contact Keeper"
+                  className={classes.img}
+                />
+                <a
+                  href="https://cryptic-plains-10912.herokuapp.com/login#!"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  View
-                </Button>
-              </a>
-            </Box>
-          </Grid>
-          <Grid item md={4}>
-            <Box className="box">
-              <img src={project3} alt="Todo List" className={classes.img} />
-              <a
-                href="https://suspicious-wing-b19024.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button
-                  variant="outlined"
-                  size="medium"
-                  fullWidth
-                  className={classes.button}
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    fullWidth
+                    className={classes.button}
+                  >
+                    View
+                  </Button>
+                </a>
+              </Box>
+            </Grid>
+            <Grid item md={4}>
+              <Box className="box">
+                <img src={project3} alt="Todo List" className={classes.img} />
+                <a
+                  href="https://suspicious-wing-b19024.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  View
-                </Button>
-              </a>
-            </Box>
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    fullWidth
+                    className={classes.button}
+                  >
+                    View
+                  </Button>
+                </a>
+              </Box>
+            </Grid>
           </Grid>
-        </Grid>
+        </Box>
       </Box>
     </Fragment>
   );
