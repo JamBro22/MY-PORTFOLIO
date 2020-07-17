@@ -10,7 +10,8 @@ const AboutMe = () => {
       border: "1px solid black",
       height: "100%",
       textAlign: "center",
-      color: "#191970",
+      fontFamily: '"Roboto", sans-serif',
+      color: "#c6cccf",
       padding: "20px",
     },
     profile: {
@@ -46,14 +47,16 @@ const AboutMe = () => {
                 alt="Jamie Brown"
                 className={classes.profile}
               />
-              <h2>Full Name: Jamie Brown</h2>
-              <h2>Age: 23 years</h2>
-              <h2>Location: Steenberg/Retreat, Cape town</h2>
+              <h2 className="details">Full Name: Jamie Brown</h2>
+              <h2 className="details">Age: 23 years</h2>
+              <h2 className="details">
+                Location: Steenberg/Retreat, Cape town
+              </h2>
             </Paper>
           </Grid>
           <Grid item xs={12} md={6}>
             <Paper className={classes.paper}>
-              <h2>Bio</h2>
+              <h2 className="details">Bio</h2>
               <p>
                 "I am a dedicated individual who values integrity, honesty and
                 pure passion. Creativity is the fuel that powers me to produce
@@ -61,7 +64,7 @@ const AboutMe = () => {
                 doubt yourself', through which it should be known that I'll
                 never give up, never surrender."
               </p>
-              <h2>Hobbies</h2>
+              <h2 className="details">Hobbies</h2>
               <p>Reading and writing</p>
               <p>Drawing</p>
               <p>Doing various puzzles</p>
@@ -70,7 +73,7 @@ const AboutMe = () => {
           </Grid>
           <Grid item xs={12}>
             <Paper className={classes.paper}>
-              <h2>Skills</h2>
+              <h2 className="details">Skills</h2>
               <Box className={classes.skill}>
                 <Box className="bar html">
                   <h3>HTML</h3>

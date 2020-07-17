@@ -11,12 +11,12 @@
   background-color: rgba(31, 35, 37, 0.5);
   padding: 5%;
   border: 1px solid black;
+  font-family: "Roboto", sans-serif;
 }
 
 .t-head {
   color: #0878be;
   font-size: x-large;
-  text-decoration: underline;
   font-weight: bold;
 }
 
@@ -26,9 +26,7 @@
 
 .msg {
   font-size: medium;
-  font-weight: bold;
   color: #c6cccf;
-  font-family: "Roboto", sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
