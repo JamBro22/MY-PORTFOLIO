@@ -19,7 +19,6 @@ const AboutMe = () => {
       width: "120px",
       borderRadius: "50%",
       border: "2px solid black",
-      marginBottom: "10px",
     },
     skill: {
       backgroundColor: "grey",
@@ -41,24 +40,22 @@ const AboutMe = () => {
       <Box className="background about-background" id="about">
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            <Paper className={classes.paper}>
-              <Grid container>
-                <Grid item sm={6}>
-                  <img
-                    src={profile}
-                    alt="Jamie Brown"
-                    className={classes.profile}
-                  />
-                </Grid>
-                <Grid item sm={6}>
-                  <h2 className="details">Full Name: Jamie Brown</h2>
-                  <h2 className="details">Age: 23 years</h2>
-                  <h2 className="details">
-                    Location: Steenberg/Retreat, Cape town
-                  </h2>
-                </Grid>
+            <Grid container className="about-grid">
+              <Grid item sm={6} className="profile-img">
+                <img
+                  src={profile}
+                  alt="Jamie Brown"
+                  className={classes.profile}
+                />
               </Grid>
-            </Paper>
+              <Grid item sm={6}>
+                <h2 className="details">Full Name: Jamie Brown</h2>
+                <h2 className="details">Age: 23 years</h2>
+                <h2 className="details">
+                  Location: Steenberg/Retreat, Cape town
+                </h2>
+              </Grid>
+            </Grid>
           </Grid>
           <Grid item xs={12} md={6}>
             <Paper className={classes.paper}>

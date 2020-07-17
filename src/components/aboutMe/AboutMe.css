@@ -12,39 +12,18 @@
   color: #0878be;
 }
 
-.bar {
-  border-radius: 20px;
-  height: 100%;
-  opacity: 0.9;
-}
-
-.html {
-  background-color: #d4531c;
-  width: 90%;
-}
-
-.css {
-  background-color: #1b8cbd;
-  width: 85%;
-}
-
-.javascript {
-  background-color: #e2bd27;
-  width: 75%;
-}
-
-.python {
-  background-color: #ce1b0e;
-  width: 68%;
-}
-
-.react {
-  background-color: #664394;
-  width: 40%;
+.about-grid {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
   .about-background {
     padding: 10%;
+  }
+
+  .profile-img {
+    width: 100%;
   }
 }

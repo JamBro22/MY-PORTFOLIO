@@ -50,7 +50,7 @@ const Testimonials = () => {
           <Slider>
             {testimonials.map((t, i) => {
               return (
-                <Slide index={i}>
+                <Slide index={i} key={t.name}>
                   <h3 className="t-head">{t.name}</h3>
                   <h3 className="t-title">- {t.title}</h3>
                   <p className="msg">{t.msg}</p>

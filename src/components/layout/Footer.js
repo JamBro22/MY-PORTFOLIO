@@ -30,7 +30,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fab fa-linkedin icon" />
+            <i className="fab fa-linkedin icon" />
           </a>
         </IconButton>
       </Box>
