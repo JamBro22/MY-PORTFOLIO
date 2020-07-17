@@ -6,7 +6,7 @@ import profile from "./profile.jpg";
 const AboutMe = () => {
   const useStyles = makeStyles({
     paper: {
-      backgroundColor: "rgba(255,254,234,0.7)",
+      backgroundColor: "rgba(31, 35, 37, 0.5)",
       border: "1px solid black",
       height: "100%",
       textAlign: "center",

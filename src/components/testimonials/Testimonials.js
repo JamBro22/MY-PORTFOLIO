@@ -1,22 +1,11 @@
 import React, { Fragment } from "react";
-import { Box, Grid, Paper, makeStyles } from "@material-ui/core";
+import { CarouselProvider, Slider, Slide, DotGroup } from "pure-react-carousel";
+import "pure-react-carousel/dist/react-carousel.es.css";
+import { Box } from "@material-ui/core";
 import "./Testimonials.css";
 import "../../App.css";
 
 const Testimonials = () => {
-  const useStyles = makeStyles({
-    paper: {
-      backgroundColor: "rgba(255,254,234,0.7)",
-      border: "1px solid black",
-      height: "auto",
-      textAlign: "center",
-      color: "#191970",
-      padding: "20px",
-    },
-  });
-
-  const classes = useStyles();
-
   const testimonials = [
     {
       name: "Jason Wandrag",
@@ -47,19 +36,30 @@ const Testimonials = () => {
     <Fragment>
       <h1 className="header">Testimonials</h1>
       <Box className="background testimonials-background" id="testimonials">
-        <Grid container spacing={3}>
-          {testimonials.map((t) => {
-            return (
-              <Grid md={6} className="grids">
-                <Paper className={classes.paper}>
-                  <h3>{t.name}</h3>
-                  <h4>{t.title}</h4>
+        <CarouselProvider
+          className="carousel"
+          naturalSlideWidth={100}
+          naturalSlideHeight={125}
+          totalSlides={4}
+          isIntrinsicHeight="true"
+          isPlaying="true"
+          interval="5000"
+          infinite="true"
+          touchEnabled
+        >
+          <Slider>
+            {testimonials.map((t, i) => {
+              return (
+                <Slide index={i}>
+                  <h3 className="t-head">{t.name}</h3>
+                  <h3 className="t-title">- {t.title}</h3>
                   <p className="msg">{t.msg}</p>
-                </Paper>
-              </Grid>
-            );
-          })}
-        </Grid>
+                </Slide>
+              );
+            })}
+          </Slider>
+          <DotGroup />
+        </CarouselProvider>
       </Box>
     </Fragment>
   );
