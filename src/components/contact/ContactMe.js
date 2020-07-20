@@ -52,7 +52,7 @@ export default class MyForm extends React.Component {
                   />
                 </Grid>
                 <Grid item md={12}>
-                  <input
+                  <textarea
                     type="text"
                     name="message"
                     placeholder="Message"
@@ -61,7 +61,7 @@ export default class MyForm extends React.Component {
                 </Grid>
                 <Grid item md={12}>
                   {status === "SUCCESS" ? (
-                    <p className="input">Thanks!</p>
+                    <p className="thank">Thanks!</p>
                   ) : (
                     <button className="btn">Submit</button>
                   )}
