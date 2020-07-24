@@ -3,13 +3,12 @@
   width: 100%;
   margin: 0;
   padding: 30px;
-  text-align: center;
 }
 
 .landing-header {
-  height: 250px;
+  height: 230px;
   width: 500px;
-  margin: 0 auto;
+  margin: 5% auto 0 auto;
   text-align: center;
 }
 

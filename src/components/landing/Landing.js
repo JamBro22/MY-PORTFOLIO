@@ -3,7 +3,7 @@ import { Parallax } from "react-parallax";
 import { Box } from "@material-ui/core";
 import Typed from "react-typed";
 import "./Landing.css";
-import image from "./spaceblue.jpg";
+import image from "./1873.jpg";
 
 const Landing = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Box, Grid } from "@material-ui/core";
 import { Parallax } from "react-parallax";
-import image from "./cactus.jpg";
+import image from "./2042.jpg";
 import "./ContactMe.css";
 import "../../App.css";
 
