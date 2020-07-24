@@ -1,5 +1,4 @@
 .testimonials-background {
-  overflow: hidden;
   height: 100%;
   width: 100%;
   padding: 80px 150px;
@@ -7,16 +6,18 @@
   overflow-x: hidden;
 }
 
-#testimonials {
-  height: 50px;
-}
-
 .carousel {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background-color: rgba(31, 35, 37, 0.5);
   padding: 5%;
   border: 1px solid black;
   font-family: "Roboto", sans-serif;
+}
+
+.slider {
+  height: 250px;
 }
 
 .t-head {
@@ -35,12 +36,43 @@
   height: auto;
 }
 
+.t-btn {
+  background: none;
+  margin: 5px;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  padding: 0;
+  border: none;
+}
+
+.arrow {
+  border-radius: 50%;
+  font-size: 30px;
+  margin: 0;
+  color: #c6cccf;
+  background-color: rgba(31, 35, 37, 0.5);
+}
+
 @media only screen and (max-width: 768px) {
   .testimonials-background {
     padding: 10%;
   }
 
   .carousel {
+    display: block;
     width: 100%;
+  }
+
+  .slider {
+    height: 85vh;
+  }
+
+  .t-btn {
+    display: none;
+  }
+
+  .arrow {
+    display: none;
   }
 }

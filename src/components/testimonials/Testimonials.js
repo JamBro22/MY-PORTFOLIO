@@ -1,5 +1,12 @@
 import React, { Fragment } from "react";
-import { CarouselProvider, Slider, Slide, DotGroup } from "pure-react-carousel";
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  DotGroup,
+  ButtonBack,
+  ButtonNext,
+} from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import { Box } from "@material-ui/core";
 import "./Testimonials.css";
@@ -35,12 +42,11 @@ const Testimonials = () => {
   return (
     <Fragment>
       <h1 className="header">Testimonials</h1>
-      {/* <Box id="testimonials"> hello</Box> */}
-      <Box className="background testimonials-background">
+      <Box className="background testimonials-background" id="testimonials">
         <CarouselProvider
           className="carousel"
           naturalSlideWidth={100}
-          naturalSlideHeight={125}
+          naturalSlideHeight={300}
           totalSlides={4}
           isIntrinsicHeight="true"
           isPlaying="true"
@@ -48,18 +54,26 @@ const Testimonials = () => {
           infinite="true"
           touchEnabled
         >
-          <Slider>
-            {testimonials.map((t, i) => {
-              return (
-                <Slide index={i} key={t.name}>
-                  <h3 className="t-head">{t.name}</h3>
-                  <h3 className="t-title">- {t.title}</h3>
-                  <p className="msg">{t.msg}</p>
-                </Slide>
-              );
-            })}
-          </Slider>
-          <DotGroup />
+          <ButtonBack className="t-btn">
+            <i className="far fa-arrow-alt-circle-left arrow"></i>
+          </ButtonBack>
+          <Box>
+            <Slider className="slider">
+              {testimonials.map((t, i) => {
+                return (
+                  <Slide index={i} key={t.name}>
+                    <h3 className="t-head">{t.name}</h3>
+                    <h3 className="t-title">- {t.title}</h3>
+                    <p className="msg">{t.msg}</p>
+                  </Slide>
+                );
+              })}
+            </Slider>
+            <DotGroup />
+          </Box>
+          <ButtonNext className="t-btn">
+            <i className="far fa-arrow-alt-circle-right arrow"></i>
+          </ButtonNext>
         </CarouselProvider>
       </Box>
     </Fragment>
