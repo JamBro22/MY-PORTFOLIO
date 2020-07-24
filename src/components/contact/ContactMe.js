@@ -19,9 +19,10 @@ export default class MyForm extends React.Component {
 
     return (
       <Fragment>
+        <span id="contact"></span>
         <h1 className="header">Contact Me</h1>
         <Parallax bgImage={image} strength={500}>
-          <Box className="contact-background form" id="contact">
+          <Box className="contact-background form">
             <form
               onSubmit={this.submitForm}
               action="https://formspree.io/mgennpvd"

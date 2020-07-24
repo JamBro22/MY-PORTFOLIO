@@ -30,8 +30,9 @@ const AboutMe = () => {
 
   return (
     <Fragment>
+      <span id="about"></span>
       <h1 className="header">About Me</h1>
-      <Box className="background about-background" id="about">
+      <Box className="background about-background">
         <Grid container spacing={3}>
           <Grid item xs={12} md={6}>
             <Paper className={classes.paper}>

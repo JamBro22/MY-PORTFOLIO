@@ -38,9 +38,10 @@ const Projects = () => {
 
   return (
     <Fragment>
+      <span id="projects"></span>
       <h1 className="header">Projects</h1>
       <Box>
-        <Box className="background projects-background" id="projects">
+        <Box className="background projects-background">
           <Grid container spacing={3}>
             <Grid item md={4}>
               <Box className="box">

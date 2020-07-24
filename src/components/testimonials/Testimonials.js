@@ -41,8 +41,9 @@ const Testimonials = () => {
   ];
   return (
     <Fragment>
+      <span id="testimonials"></span>
       <h1 className="header">Testimonials</h1>
-      <Box className="background testimonials-background" id="testimonials">
+      <Box className="background testimonials-background">
         <CarouselProvider
           className="carousel"
           naturalSlideWidth={100}

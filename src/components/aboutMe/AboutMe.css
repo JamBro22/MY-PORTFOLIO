@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+.no-display {
+  display: none;
+}
+
 .details {
   color: #c3cccf;
 }
