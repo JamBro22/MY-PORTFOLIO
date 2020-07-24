@@ -9,19 +9,28 @@ import "./Projects.css";
 const Projects = () => {
   const useStyles = makeStyles({
     img: {
-      border: "1px solid black",
+      border: "2px solid black",
       width: "100%",
       height: "77%",
     },
     button: {
       color: "aliceblue",
       backgroundColor: "#041423",
-      marginTop: "5px",
+      width: "48%",
     },
     repo: {
       color: "aliceblue",
       backgroundColor: "#131617",
-      marginTop: "5px",
+      width: "48%",
+      float: "right",
+    },
+    title: {
+      color: "#64b8ec",
+    },
+    description: {
+      color: "#c6cccf",
+      fontFamily: '"Roboto", sans-serif',
+      padding: "5px",
     },
   });
 
@@ -32,7 +41,7 @@ const Projects = () => {
       <h1 className="header">Projects</h1>
       <Box>
         <Box className="background projects-background" id="projects">
-          <Grid container spacing={2}>
+          <Grid container spacing={3}>
             <Grid item md={4}>
               <Box className="box">
                 <img
@@ -40,6 +49,10 @@ const Projects = () => {
                   alt="Github Account Finder"
                   className={classes.img}
                 />
+                <h3 className={classes.title}>Github Account Finder</h3>
+                <p className={classes.description}>
+                  Search for any github account and find out more about it.
+                </p>
                 <a
                   href="https://githubfinder895.netlify.app/"
                   target="_blank"
@@ -48,10 +61,9 @@ const Projects = () => {
                   <Button
                     variant="outlined"
                     size="medium"
-                    fullWidth
                     className={classes.button}
                   >
-                    View
+                    View Site
                   </Button>
                 </a>
                 <a
@@ -62,7 +74,6 @@ const Projects = () => {
                   <Button
                     variant="outlined"
                     size="medium"
-                    fullWidth
                     className={classes.repo}
                   >
                     View Repo
@@ -77,6 +88,10 @@ const Projects = () => {
                   alt="Rocket Contact Keeper"
                   className={classes.img}
                 />
+                <h3 className={classes.title}>Contact Keeper</h3>
+                <p className={classes.description}>
+                  Log in to store and protect all your contacts.
+                </p>
                 <a
                   href="https://cryptic-plains-10912.herokuapp.com/login#!"
                   target="_blank"
@@ -85,7 +100,6 @@ const Projects = () => {
                   <Button
                     variant="outlined"
                     size="medium"
-                    fullWidth
                     className={classes.button}
                   >
                     View Site
@@ -99,7 +113,6 @@ const Projects = () => {
                   <Button
                     variant="outlined"
                     size="medium"
-                    fullWidth
                     className={classes.repo}
                   >
                     View Repo
@@ -110,6 +123,10 @@ const Projects = () => {
             <Grid item md={4}>
               <Box className="box">
                 <img src={project3} alt="Todo List" className={classes.img} />
+                <h3 className={classes.title}>Todo List</h3>
+                <p className={classes.description}>
+                  Schedule your tasks for the day with a handy todo list.
+                </p>
                 <a
                   href="https://suspicious-wing-b19024.netlify.app/"
                   target="_blank"
@@ -118,10 +135,9 @@ const Projects = () => {
                   <Button
                     variant="outlined"
                     size="medium"
-                    fullWidth
                     className={classes.button}
                   >
-                    View
+                    View Site
                   </Button>
                 </a>
                 <a
@@ -132,7 +148,6 @@ const Projects = () => {
                   <Button
                     variant="outlined"
                     size="medium"
-                    fullWidth
                     className={classes.repo}
                   >
                     View Repo

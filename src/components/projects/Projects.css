@@ -1,8 +1,9 @@
 .projects-background {
-  padding: 60px 150px;
+  padding: 80px 150px;
 }
 
 .box {
+  text-align: center;
   border: 1px solid black;
   height: auto;
   width: 100%;
