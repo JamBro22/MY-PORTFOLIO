@@ -14,12 +14,12 @@ const Projects = () => {
       height: "77%",
     },
     button: {
-      color: "aliceblue",
+      color: "#c6cccf",
       backgroundColor: "#041423",
       width: "48%",
     },
     repo: {
-      color: "aliceblue",
+      color: "#c6cccf",
       backgroundColor: "#131617",
       width: "48%",
       float: "right",
