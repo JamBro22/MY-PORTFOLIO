@@ -16,6 +16,12 @@ const Projects = () => {
     button: {
       color: "aliceblue",
       backgroundColor: "#041423",
+      marginTop: "5px",
+    },
+    repo: {
+      color: "aliceblue",
+      backgroundColor: "#131617",
+      marginTop: "5px",
     },
   });
 
@@ -48,6 +54,20 @@ const Projects = () => {
                     View
                   </Button>
                 </a>
+                <a
+                  href="https://github.com/JamBro22/github_project_finder"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    fullWidth
+                    className={classes.repo}
+                  >
+                    View Repo
+                  </Button>
+                </a>
               </Box>
             </Grid>
             <Grid item md={4}>
@@ -68,7 +88,21 @@ const Projects = () => {
                     fullWidth
                     className={classes.button}
                   >
-                    View
+                    View Site
+                  </Button>
+                </a>
+                <a
+                  href="https://github.com/JamBro22/Contact-Keeper"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    fullWidth
+                    className={classes.repo}
+                  >
+                    View Repo
                   </Button>
                 </a>
               </Box>
@@ -88,6 +122,20 @@ const Projects = () => {
                     className={classes.button}
                   >
                     View
+                  </Button>
+                </a>
+                <a
+                  href="https://github.com/JamBro22/TODO"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    fullWidth
+                    className={classes.repo}
+                  >
+                    View Repo
                   </Button>
                 </a>
               </Box>

@@ -16,6 +16,7 @@ export default class MyForm extends React.Component {
 
   render() {
     const { status } = this.state;
+
     return (
       <Fragment>
         <h1 className="header">Contact Me</h1>
@@ -29,6 +30,7 @@ export default class MyForm extends React.Component {
               <Grid container spacing={2} className="grid">
                 <Grid item md={12}>
                   <input
+                    required
                     type="text"
                     name="name"
                     placeholder="Name"
@@ -37,6 +39,7 @@ export default class MyForm extends React.Component {
                 </Grid>
                 <Grid item md={12}>
                   <input
+                    required
                     type="text"
                     name="organisation"
                     placeholder="Organisation"
@@ -45,6 +48,7 @@ export default class MyForm extends React.Component {
                 </Grid>
                 <Grid item md={12}>
                   <input
+                    required
                     type="email"
                     name="email"
                     placeholder="Email"
@@ -53,6 +57,7 @@ export default class MyForm extends React.Component {
                 </Grid>
                 <Grid item md={12}>
                   <textarea
+                    required
                     type="text"
                     name="message"
                     placeholder="Message"
@@ -65,7 +70,9 @@ export default class MyForm extends React.Component {
                   ) : (
                     <button className="btn">Submit</button>
                   )}
-                  {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                  {status === "ERROR" && (
+                    <p className="red">Ooops! There was an error.</p>
+                  )}
                 </Grid>
               </Grid>
             </form>

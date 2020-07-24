@@ -7,6 +7,10 @@
   overflow-x: hidden;
 }
 
+#testimonials {
+  height: 50px;
+}
+
 .carousel {
   display: inline-block;
   background-color: rgba(31, 35, 37, 0.5);

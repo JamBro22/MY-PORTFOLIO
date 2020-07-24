@@ -15,8 +15,8 @@ function App() {
       <CssBaseline />
       <Landing />
       <Navbar />
-      <Projects />
       <AboutMe />
+      <Projects />
       <Testimonials />
       <ContactMe />
       <Footer />
