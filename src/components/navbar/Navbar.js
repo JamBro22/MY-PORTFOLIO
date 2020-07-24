@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import "./Navbar.css";
 
-const navItems = ["Home", "Projects", "About Me", "Testimonials", "Contact"];
+const navItems = ["Home", "About Me", "Projects", "Testimonials", "Contact"];
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
