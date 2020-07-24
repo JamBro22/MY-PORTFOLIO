@@ -63,9 +63,10 @@ const AboutMe = () => {
               <p>
                 "I am a dedicated individual who values integrity, honesty and
                 pure passion. Creativity is the fuel that powers me to produce
-                the best works within everything that I do. My motto is: 'Dont
-                doubt yourself', through which it should be known that I'll
-                never give up, never surrender."
+                my best work. My motto is “Don’t doubt yourself”, which has
+                guided me through many difficult situations. Through this it
+                should be known that I will never stop trying, I will never give
+                up. "
               </p>
               <h2 className="details">Hobbies</h2>
               <p>Reading and writing</p>
