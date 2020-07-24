@@ -69,20 +69,48 @@ const AboutMe = () => {
           <Grid item xs={12}>
             <Paper className={classes.paper}>
               <h2 className="title">Education</h2>
-              <h2>
-                <i className="fas fa-space-shuttle"></i>
-              </h2>
               <img
                 src="https://img.icons8.com/ultraviolet/40/000000/planet.png"
                 alt="planet"
                 className="planet"
               />
+              <div className="grid-right">
+                <h3>2014</h3>
+                <h4>
+                  Matric <br />
+                  School: Steenberg High
+                </h4>
+              </div>
               <img
                 src="https://img.icons8.com/ultraviolet/40/000000/planet.png"
                 alt="planet"
-                className="planet flip"
+                className="planet"
               />
-              <h2 className="title">Work Experience</h2>
+              <div className="grid-left">
+                <h3>Feb 2016 - June 2017</h3>
+                <h4>
+                  University of Free State <br />
+                  Course: Bachelor of Accounting <br />
+                  Completed: no
+                </h4>
+              </div>
+              <img
+                src="https://img.icons8.com/ultraviolet/40/000000/planet.png"
+                alt="planet"
+                className="planet"
+              />
+              <div className="grid-right">
+                <h3>Feb 2020 - Aug 2020</h3>
+                <h4>
+                  Lifechoices Academy <br />
+                  Course: Coding <br />
+                </h4>
+              </div>
+              <img
+                src="https://img.icons8.com/ultraviolet/40/000000/planet.png"
+                alt="planet"
+                className="planet"
+              />
             </Paper>
           </Grid>
           <Grid item xs={12}>

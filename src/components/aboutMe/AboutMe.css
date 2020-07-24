@@ -26,9 +26,25 @@
   width: 100%;
 }
 
+.grid-right {
+  text-align: right;
+  border-right: 2px solid #bdc1be;
+  padding-right: 10px;
+  width: 50%;
+}
+
+.grid-left {
+  text-align: left;
+  border-left: 2px solid #bdc1be;
+  padding-left: 10px;
+  width: 50%;
+  margin-left: auto;
+}
+
 .planet {
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
+  margin: 8px auto;
 }
 
 .flip {
@@ -91,5 +107,13 @@
 
   .profile-img {
     width: 100%;
+  }
+
+  .bar-font {
+    display: none;
+  }
+
+  .icons {
+    width: 20px;
   }
 }
