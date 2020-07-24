@@ -24,16 +24,6 @@ const AboutMe = () => {
       border: "2px solid black",
       margin: "10px auto",
     },
-    skill: {
-      backgroundColor: "grey",
-      borderRadius: "20px",
-      opacity: "0.8",
-      height: "30px",
-      textAlign: "left",
-      padding: "4px",
-      marginLeft: "auto",
-      marginBottom: "10px",
-    },
   });
 
   const classes = useStyles();
@@ -97,35 +87,43 @@ const AboutMe = () => {
           </Grid>
           <Grid item xs={12}>
             <Paper className={classes.paper}>
-              <h2 className="title">Skills</h2>
-              <Box>
-                <Box>
-                  <h3>HTML</h3>
-                </Box>
-              </Box>
-              <Box>
-                <Box>
-                  <h3>CSS</h3>
-                </Box>
-              </Box>
-              <Box>
-                <Box>
-                  <h3>JavaScript</h3>
-                </Box>
-              </Box>
-              <Box>
-                <Box>
-                  <h3>Python</h3>
-                </Box>
-              </Box>
-              <Box>
-                <Box>
-                  <h3>Bootstrap</h3>
-                </Box>
-                <Box>
-                  <h3>React</h3>
-                </Box>
-              </Box>
+              <h2 className="title">Skills & Proficiency</h2>
+              <h3 className="bar-border">
+                <i className="fab fa-html5 icons">
+                  <span className="bar-font">HTML</span>
+                </i>
+                <i className="fas fa-space-shuttle shuttle html" />
+              </h3>
+              <h3 className="bar-border">
+                <i className="fab fa-css3-alt icons">
+                  <span className="bar-font">CSS</span>
+                </i>
+                <i className="fas fa-space-shuttle shuttle css" />
+              </h3>
+              <h3 className="bar-border">
+                <i class="fab fa-js-square icons">
+                  <span className="bar-font">JavaScript</span>
+                </i>
+                <i className="fas fa-space-shuttle shuttle javascript"></i>
+              </h3>
+              <h3 className="bar-border">
+                <i class="fab fa-python icons">
+                  <span className="bar-font">Python</span>
+                </i>
+                <i className="fas fa-space-shuttle shuttle python" />
+              </h3>
+              <h3 className="bar-border">
+                <i class="fab fa-bootstrap icons">
+                  <span className="bar-font">Bootstrap</span>
+                </i>
+                <i className="fas fa-space-shuttle shuttle bootstrap" />
+              </h3>
+              <h3 className="bar-border">
+                <i class="fab fa-react icons">
+                  <span className="bar-font">React</span>
+                </i>
+                <i className="fas fa-space-shuttle shuttle react" />
+              </h3>
             </Paper>
           </Grid>
         </Grid>
