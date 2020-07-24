@@ -6,6 +6,9 @@ import profile from "./profile.jpg";
 const AboutMe = () => {
   const useStyles = makeStyles({
     paper: {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
       backgroundColor: "rgba(31, 35, 37, 0.5)",
       border: "1px solid black",
       height: "100%",
@@ -15,10 +18,11 @@ const AboutMe = () => {
       padding: "20px",
     },
     profile: {
-      height: "150px",
+      height: "130px",
       width: "120px",
       borderRadius: "50%",
       border: "2px solid black",
+      margin: "10px auto",
     },
     skill: {
       backgroundColor: "grey",
@@ -38,28 +42,25 @@ const AboutMe = () => {
     <Fragment>
       <h1 className="header">About Me</h1>
       <Box className="background about-background" id="about">
-        <Grid container spacing={2}>
-          <Grid item xs={12}>
-            <Grid container className="about-grid">
-              <Grid item sm={6} className="profile-img">
-                <img
-                  src={profile}
-                  alt="Jamie Brown"
-                  className={classes.profile}
-                />
-              </Grid>
-              <Grid item sm={6}>
-                <h2 className="details">Full Name: Jamie Brown</h2>
-                <h2 className="details">Age: 23 years</h2>
-                <h2 className="details">
-                  Location: Steenberg/Retreat, Cape town
-                </h2>
-              </Grid>
-            </Grid>
+        <Grid container spacing={3}>
+          <Grid item xs={12} md={6}>
+            <Paper className={classes.paper}>
+              <img
+                src={profile}
+                alt="Jamie Brown"
+                className={classes.profile}
+              />
+              <h2 className="title">Full Name:</h2>
+              <h3 className="details">Jamie Brown </h3>
+              <h2 className="title">Age:</h2>
+              <h3 className="details">23 years</h3>
+              <h2 className="title">Location:</h2>
+              <h3 className="details">Steenberg/Retreat, Cape town</h3>
+            </Paper>
           </Grid>
           <Grid item xs={12} md={6}>
             <Paper className={classes.paper}>
-              <h2 className="details">Bio</h2>
+              <h2 className="title">Bio</h2>
               <p>
                 "I am a dedicated individual who values integrity, honesty and
                 pure passion. Creativity is the fuel that powers me to produce
@@ -68,16 +69,35 @@ const AboutMe = () => {
                 should be known that I will never stop trying, I will never give
                 up. "
               </p>
-              <h2 className="details">Hobbies</h2>
+              <h2 className="title">Hobbies</h2>
               <p>Reading and writing</p>
               <p>Drawing</p>
               <p>Doing various puzzles</p>
               <p>Playing board games</p>
             </Paper>
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12}>
             <Paper className={classes.paper}>
-              <h2 className="details">Skills</h2>
+              <h2 className="title">Education</h2>
+              <h2>
+                <i className="fas fa-space-shuttle"></i>
+              </h2>
+              <img
+                src="https://img.icons8.com/ultraviolet/40/000000/planet.png"
+                alt="planet"
+                className="planet"
+              />
+              <img
+                src="https://img.icons8.com/ultraviolet/40/000000/planet.png"
+                alt="planet"
+                className="planet flip"
+              />
+              <h2 className="title">Work Experience</h2>
+            </Paper>
+          </Grid>
+          <Grid item xs={12}>
+            <Paper className={classes.paper}>
+              <h2 className="title">Skills</h2>
               <Box>
                 <Box>
                   <h3>HTML</h3>

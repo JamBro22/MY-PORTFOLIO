@@ -9,6 +9,10 @@
 }
 
 .details {
+  color: #c3cccf;
+}
+
+.title {
   color: #0878be;
 }
 
@@ -16,6 +20,19 @@
   border: 1px solid black;
   padding: 20px;
   text-align: center;
+}
+
+.profile-img {
+  width: 100%;
+}
+
+.planet {
+  height: 35px;
+  width: 35px;
+}
+
+.flip {
+  transform: scaleX(-1);
 }
 
 @media only screen and (max-width: 768px) {
