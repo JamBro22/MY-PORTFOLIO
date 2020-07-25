@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/MY-PORTFOLIO/static/css/main.e49f0061.chunk.css",
-    "main.js": "/MY-PORTFOLIO/static/js/main.886607cb.chunk.js",
-    "main.js.map": "/MY-PORTFOLIO/static/js/main.886607cb.chunk.js.map",
+    "main.css": "/MY-PORTFOLIO/static/css/main.b9a82f24.chunk.css",
+    "main.js": "/MY-PORTFOLIO/static/js/main.165f21d9.chunk.js",
+    "main.js.map": "/MY-PORTFOLIO/static/js/main.165f21d9.chunk.js.map",
     "runtime-main.js": "/MY-PORTFOLIO/static/js/runtime-main.e83d41ca.js",
     "runtime-main.js.map": "/MY-PORTFOLIO/static/js/runtime-main.e83d41ca.js.map",
     "static/css/2.1a0a2c47.chunk.css": "/MY-PORTFOLIO/static/css/2.1a0a2c47.chunk.css",
-    "static/js/2.6164a936.chunk.js": "/MY-PORTFOLIO/static/js/2.6164a936.chunk.js",
-    "static/js/2.6164a936.chunk.js.map": "/MY-PORTFOLIO/static/js/2.6164a936.chunk.js.map",
+    "static/js/2.5f68d6db.chunk.js": "/MY-PORTFOLIO/static/js/2.5f68d6db.chunk.js",
+    "static/js/2.5f68d6db.chunk.js.map": "/MY-PORTFOLIO/static/js/2.5f68d6db.chunk.js.map",
     "index.html": "/MY-PORTFOLIO/index.html",
-    "precache-manifest.1982e62674ddaae276c1f00404ee4511.js": "/MY-PORTFOLIO/precache-manifest.1982e62674ddaae276c1f00404ee4511.js",
+    "precache-manifest.a0a4e17e466abb28ff911a0aa44317e9.js": "/MY-PORTFOLIO/precache-manifest.a0a4e17e466abb28ff911a0aa44317e9.js",
     "service-worker.js": "/MY-PORTFOLIO/service-worker.js",
     "static/css/2.1a0a2c47.chunk.css.map": "/MY-PORTFOLIO/static/css/2.1a0a2c47.chunk.css.map",
-    "static/css/main.e49f0061.chunk.css.map": "/MY-PORTFOLIO/static/css/main.e49f0061.chunk.css.map",
-    "static/js/2.6164a936.chunk.js.LICENSE.txt": "/MY-PORTFOLIO/static/js/2.6164a936.chunk.js.LICENSE.txt",
+    "static/css/main.b9a82f24.chunk.css.map": "/MY-PORTFOLIO/static/css/main.b9a82f24.chunk.css.map",
+    "static/js/2.5f68d6db.chunk.js.LICENSE.txt": "/MY-PORTFOLIO/static/js/2.5f68d6db.chunk.js.LICENSE.txt",
     "static/media/1873.jpg": "/MY-PORTFOLIO/static/media/1873.98b933f8.jpg",
     "static/media/2042.jpg": "/MY-PORTFOLIO/static/media/2042.f28aeebe.jpg",
+    "static/media/astronaut.png": "/MY-PORTFOLIO/static/media/astronaut.8acb2092.png",
     "static/media/github-finder.jpg": "/MY-PORTFOLIO/static/media/github-finder.ff7f303a.jpg",
     "static/media/profile.jpg": "/MY-PORTFOLIO/static/media/profile.456d616a.jpg",
     "static/media/rocketContacts.jpg": "/MY-PORTFOLIO/static/media/rocketContacts.ba8e816d.jpg",
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.e83d41ca.js",
     "static/css/2.1a0a2c47.chunk.css",
-    "static/js/2.6164a936.chunk.js",
-    "static/css/main.e49f0061.chunk.css",
-    "static/js/main.886607cb.chunk.js"
+    "static/js/2.5f68d6db.chunk.js",
+    "static/css/main.b9a82f24.chunk.css",
+    "static/js/main.165f21d9.chunk.js"
   ]
 }
