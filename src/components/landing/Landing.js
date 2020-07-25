@@ -4,7 +4,6 @@ import { Box } from "@material-ui/core";
 import Typed from "react-typed";
 import "./Landing.css";
 import image from "./1873.jpg";
-import astronaut from "./astronaut.png";
 
 const Landing = () => {
   return (
@@ -29,7 +28,6 @@ const Landing = () => {
               loop="loop"
             />
           </Box>
-          <img src={astronaut} alt="astronaut" className="astronaut" />
         </Box>
       </Parallax>
     </div>
