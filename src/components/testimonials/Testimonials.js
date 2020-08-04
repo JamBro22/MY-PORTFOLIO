@@ -65,7 +65,7 @@ const Testimonials = () => {
                   <Slide index={i} key={t.name}>
                     <h3 className="t-head">{t.name}</h3>
                     <h3 className="t-title">- {t.title}</h3>
-                    <p className="msg">{t.msg}</p>
+                    <p className="msgs">{t.msg}</p>
                   </Slide>
                 );
               })}
