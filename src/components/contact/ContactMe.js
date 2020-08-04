@@ -28,7 +28,7 @@ export default class MyForm extends React.Component {
               action="https://formspree.io/mgennpvd"
               method="POST"
             >
-              <Grid container spacing={2} className="grid">
+              <Grid container spacing={2} className="grid MuiGrid-wrap-xs-nowrap">
                 <Grid item md={12}>
                   <input
                     required
