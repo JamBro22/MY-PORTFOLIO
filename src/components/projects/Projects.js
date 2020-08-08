@@ -129,7 +129,7 @@ const Projects = () => {
                   Schedule your tasks for the day with a handy todo list.
                 </p>
                 <a
-                  href="https://suspicious-wing-b19024.netlify.app/"
+                  href="https://infallible-ritchie-0d3486.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
