@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/MY-PORTFOLIO/static/css/main.33e04960.chunk.css",
-    "main.js": "/MY-PORTFOLIO/static/js/main.459b57ac.chunk.js",
-    "main.js.map": "/MY-PORTFOLIO/static/js/main.459b57ac.chunk.js.map",
+    "main.css": "/MY-PORTFOLIO/static/css/main.3b7a8b01.chunk.css",
+    "main.js": "/MY-PORTFOLIO/static/js/main.272d93a3.chunk.js",
+    "main.js.map": "/MY-PORTFOLIO/static/js/main.272d93a3.chunk.js.map",
     "runtime-main.js": "/MY-PORTFOLIO/static/js/runtime-main.e83d41ca.js",
     "runtime-main.js.map": "/MY-PORTFOLIO/static/js/runtime-main.e83d41ca.js.map",
     "static/css/2.1a0a2c47.chunk.css": "/MY-PORTFOLIO/static/css/2.1a0a2c47.chunk.css",
     "static/js/2.6164a936.chunk.js": "/MY-PORTFOLIO/static/js/2.6164a936.chunk.js",
     "static/js/2.6164a936.chunk.js.map": "/MY-PORTFOLIO/static/js/2.6164a936.chunk.js.map",
     "index.html": "/MY-PORTFOLIO/index.html",
-    "precache-manifest.b5e750d2ca3cabb378e608c5f2f0214e.js": "/MY-PORTFOLIO/precache-manifest.b5e750d2ca3cabb378e608c5f2f0214e.js",
+    "precache-manifest.f8b530ca0696c30fccde5b7c200fe856.js": "/MY-PORTFOLIO/precache-manifest.f8b530ca0696c30fccde5b7c200fe856.js",
     "service-worker.js": "/MY-PORTFOLIO/service-worker.js",
     "static/css/2.1a0a2c47.chunk.css.map": "/MY-PORTFOLIO/static/css/2.1a0a2c47.chunk.css.map",
-    "static/css/main.33e04960.chunk.css.map": "/MY-PORTFOLIO/static/css/main.33e04960.chunk.css.map",
+    "static/css/main.3b7a8b01.chunk.css.map": "/MY-PORTFOLIO/static/css/main.3b7a8b01.chunk.css.map",
     "static/js/2.6164a936.chunk.js.LICENSE.txt": "/MY-PORTFOLIO/static/js/2.6164a936.chunk.js.LICENSE.txt",
     "static/media/1873.jpg": "/MY-PORTFOLIO/static/media/1873.f306d40b.jpg",
     "static/media/2042.jpg": "/MY-PORTFOLIO/static/media/2042.8f02b270.jpg",
-    "static/media/github-finder.jpg": "/MY-PORTFOLIO/static/media/github-finder.ff7f303a.jpg",
+    "static/media/github-finder.jpg": "/MY-PORTFOLIO/static/media/github-finder.e54c3943.jpg",
     "static/media/profile.jpg": "/MY-PORTFOLIO/static/media/profile.d07fbc22.jpg",
     "static/media/rocketContacts.jpg": "/MY-PORTFOLIO/static/media/rocketContacts.ba8e816d.jpg",
     "static/media/todo.jpg": "/MY-PORTFOLIO/static/media/todo.f57ff2f7.jpg"
@@ -25,7 +25,7 @@
     "static/js/runtime-main.e83d41ca.js",
     "static/css/2.1a0a2c47.chunk.css",
     "static/js/2.6164a936.chunk.js",
-    "static/css/main.33e04960.chunk.css",
-    "static/js/main.459b57ac.chunk.js"
+    "static/css/main.3b7a8b01.chunk.css",
+    "static/js/main.272d93a3.chunk.js"
   ]
 }
