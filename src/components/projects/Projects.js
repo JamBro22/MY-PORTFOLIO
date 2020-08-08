@@ -55,7 +55,7 @@ const Projects = () => {
                   Search for any github account and find out more about it.
                 </p>
                 <a
-                  href="https://githubfinder895.netlify.app/"
+                  href="https://stupefied-nobel-fbfedb.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

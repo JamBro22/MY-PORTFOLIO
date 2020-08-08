@@ -97,6 +97,7 @@
 
   .msg {
     height: 100px;
+    max-width: 80%;
   }
 
   .btn {
