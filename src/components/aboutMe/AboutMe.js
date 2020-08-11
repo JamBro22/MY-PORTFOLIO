@@ -130,25 +130,25 @@ const AboutMe = () => {
                 <i className="fas fa-space-shuttle shuttle css" />
               </h3>
               <h3 className="bar-border">
-                <i class="fab fa-js-square icons">
+                <i className="fab fa-js-square icons">
                   <span className="bar-font">JavaScript</span>
                 </i>
                 <i className="fas fa-space-shuttle shuttle javascript"></i>
               </h3>
               <h3 className="bar-border">
-                <i class="fab fa-python icons">
+                <i className="fab fa-python icons">
                   <span className="bar-font">Python</span>
                 </i>
                 <i className="fas fa-space-shuttle shuttle python" />
               </h3>
               <h3 className="bar-border">
-                <i class="fab fa-bootstrap icons">
+                <i className="fab fa-bootstrap icons">
                   <span className="bar-font">Bootstrap</span>
                 </i>
                 <i className="fas fa-space-shuttle shuttle bootstrap" />
               </h3>
               <h3 className="bar-border">
-                <i class="fab fa-react icons">
+                <i className="fab fa-react icons">
                   <span className="bar-font">React</span>
                 </i>
                 <i className="fas fa-space-shuttle shuttle react" />

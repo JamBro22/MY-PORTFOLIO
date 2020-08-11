@@ -21,11 +21,11 @@ const Landing = () => {
           </Box>
           <Box className="landing-type">
             <Typed
-              strings={["Avid coder", "Web developer", "Weirdo"]}
+              strings={["Avid coder", "Web developer", "Creator"]}
               typeSpeed={70}
               backSpeed={70}
               startDelay={500}
-              loop="loop"
+              loop
             />
           </Box>
         </Box>
