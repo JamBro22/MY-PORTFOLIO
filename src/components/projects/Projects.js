@@ -3,6 +3,10 @@ import { Box, Grid, makeStyles, Button } from "@material-ui/core";
 import project1 from "./project-images/github-finder.jpg";
 import project2 from "./project-images/rocketContacts.jpg";
 import project3 from "./project-images/todo.jpg";
+import project4 from "./project-images/tkinter.jpg";
+import project5 from "./project-images/tkinter2.jpg";
+import tkinter from "./pyprojects/tkinter_add_numbers.exe";
+import tkinter2 from "./pyprojects/tkinter_convert_temperature.exe";
 import "../../App.css";
 import "./Projects.css";
 
@@ -143,6 +147,69 @@ const Projects = () => {
                 </a>
                 <a
                   href="https://github.com/JamBro22/TODO"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    className={classes.repo}
+                  >
+                    View Repo
+                  </Button>
+                </a>
+              </Box>
+            </Grid>
+            <Grid item md={4}>
+              <Box className="box">
+                <img src={project5} alt="Todo List" className={classes.img} />
+                <h3 className={classes.title}>Tkinter Convert Temperature</h3>
+                <p className={classes.description}>
+                  A python/tkinter GUI app. Convert temparature from degrees
+                  Celsius to Fahrenheit and vice versa.
+                </p>
+                <a href={tkinter2} download>
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    className={classes.button}
+                  >
+                    Download
+                  </Button>
+                </a>
+                <a
+                  href="https://github.com/JamBro22/TKINTER_FIRST_EXERCISES"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    className={classes.repo}
+                  >
+                    View Repo
+                  </Button>
+                </a>
+              </Box>
+            </Grid>
+            <Grid item md={4}>
+              <Box className="box">
+                <img src={project4} alt="Todo List" className={classes.img} />
+                <h3 className={classes.title}>Tkinter Add Numbers</h3>
+                <p className={classes.description}>
+                  A python GUI app using tkinter. Add two numbers.
+                </p>
+                <a href={tkinter} download>
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    className={classes.button}
+                  >
+                    Download
+                  </Button>
+                </a>
+                <a
+                  href="https://github.com/JamBro22/TKINTER_FIRST_EXERCISES"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
