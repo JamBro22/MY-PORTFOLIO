@@ -12,7 +12,11 @@
   height: 230px;
   width: 500px;
   text-align: center;
+<<<<<<< HEAD
   margin: 0 auto;
+=======
+  margin:  0 auto;
+>>>>>>> 0250ba1aeda467d1f9eb3a42ec30261e453c80aa
   transform: translateY(-55%);
 }
 
@@ -43,8 +47,13 @@ h1 {
   .landing-background {
     padding: 10px;
     display: flex;
+<<<<<<< HEAD
     flex-direction: column;
     justify-content: center;
+=======
+  flex-direction: column;
+  justify-content: center;
+>>>>>>> 0250ba1aeda467d1f9eb3a42ec30261e453c80aa
   }
 
   .landing-header {
