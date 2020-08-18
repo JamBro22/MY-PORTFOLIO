@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae541ef55a3a895d0d38e8f8642fbdff",
+    "revision": "128151a365f78be75b59dca19dfaef03",
     "url": "/MY-PORTFOLIO/index.html"
   },
   {
-    "revision": "1c748ce25717f20025bc",
+    "revision": "104b306b358cabd1a881",
     "url": "/MY-PORTFOLIO/static/css/2.1a0a2c47.chunk.css"
   },
   {
-    "revision": "fd9f8a8aa5e8c552ce1e",
+    "revision": "376c09d608d69c75f988",
     "url": "/MY-PORTFOLIO/static/css/main.ad204c70.chunk.css"
   },
   {
-    "revision": "1c748ce25717f20025bc",
-    "url": "/MY-PORTFOLIO/static/js/2.6f8fdfa6.chunk.js"
+    "revision": "104b306b358cabd1a881",
+    "url": "/MY-PORTFOLIO/static/js/2.36a64fb7.chunk.js"
   },
   {
     "revision": "84f48c9a090ba2f8cc4a11e48dd3dad0",
-    "url": "/MY-PORTFOLIO/static/js/2.6f8fdfa6.chunk.js.LICENSE.txt"
+    "url": "/MY-PORTFOLIO/static/js/2.36a64fb7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd9f8a8aa5e8c552ce1e",
-    "url": "/MY-PORTFOLIO/static/js/main.65748334.chunk.js"
+    "revision": "376c09d608d69c75f988",
+    "url": "/MY-PORTFOLIO/static/js/main.55c9d23e.chunk.js"
   },
   {
     "revision": "c8a514423236b7ed12c9",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MY-PORTFOLIO/static/media/2042.8f02b270.jpg"
   },
   {
+    "revision": "4816ef4cd3f82577090f13aec9cff0d7",
+    "url": "/MY-PORTFOLIO/static/media/axiom.4816ef4c.jpg"
+  },
+  {
     "revision": "e54c3943781a09fb993eae158938f987",
     "url": "/MY-PORTFOLIO/static/media/github-finder.e54c3943.jpg"
   },
@@ -48,12 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MY-PORTFOLIO/static/media/rocketContacts.ba8e816d.jpg"
   },
   {
-    "revision": "f2d3bf1e2176dbceb809ca3f63edc72d",
-    "url": "/MY-PORTFOLIO/static/media/tkinter.f2d3bf1e.jpg"
+    "revision": "50f726cbafe9510a02b1634b478f6f25",
+    "url": "/MY-PORTFOLIO/static/media/tkinter.50f726cb.jpg"
   },
   {
-    "revision": "b3a4c6bd835d7e826772f7d35d27a67c",
-    "url": "/MY-PORTFOLIO/static/media/tkinter2.b3a4c6bd.jpg"
+    "revision": "4bf95ccbaf720401ff469f4e52e4c8b7",
+    "url": "/MY-PORTFOLIO/static/media/tkinter2.4bf95ccb.jpg"
   },
   {
     "revision": "3467b21d25baee1769d8662c6ac0aed8",
