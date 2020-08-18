@@ -5,6 +5,7 @@ import project2 from "./project-images/rocketContacts.jpg";
 import project3 from "./project-images/todo.jpg";
 import project4 from "./project-images/tkinter.jpg";
 import project5 from "./project-images/tkinter2.jpg";
+import project6 from "./project-images/axiom.jpg";
 import tkinter from "./pyprojects/tkinter_add_numbers.exe";
 import tkinter2 from "./pyprojects/tkinter_convert_temperature.exe";
 import "../../App.css";
@@ -15,7 +16,7 @@ const Projects = () => {
     img: {
       border: "2px solid black",
       width: "100%",
-      height: "77%",
+      height: "150px",
     },
     button: {
       color: "#c6cccf",
@@ -162,10 +163,45 @@ const Projects = () => {
             </Grid>
             <Grid item md={4}>
               <Box className="box">
-                <img src={project5} alt="Todo List" className={classes.img} />
+                <img src={project6} alt="Axiom" className={classes.img} />
+                <h3 className={classes.title}>Online courses - Axiom</h3>
+                <p className={classes.description}>
+                  Learn to draw with existing courses or add your own.
+                </p>
+                <a
+                  href="https://still-river-30232.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    className={classes.button}
+                  >
+                    View Site
+                  </Button>
+                </a>
+                <a
+                  href="https://github.com/JamBro22/lms-axiom"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    className={classes.repo}
+                  >
+                    View Repo
+                  </Button>
+                </a>
+              </Box>
+            </Grid>
+            <Grid item md={4}>
+              <Box className="box">
+                <img src={project5} alt="Temperature" className={classes.img} />
                 <h3 className={classes.title}>Tkinter Convert Temperature</h3>
                 <p className={classes.description}>
-                  A python/tkinter GUI app. Convert temparature from degrees
+                  A python/tkinter GUI app. Convert temperature from degrees
                   Celsius to Fahrenheit and vice versa.
                 </p>
                 <a href={tkinter2} download>
@@ -194,7 +230,7 @@ const Projects = () => {
             </Grid>
             <Grid item md={4}>
               <Box className="box">
-                <img src={project4} alt="Todo List" className={classes.img} />
+                <img src={project4} alt="Add Numbers" className={classes.img} />
                 <h3 className={classes.title}>Tkinter Add Numbers</h3>
                 <p className={classes.description}>
                   A python GUI app using tkinter. Add two numbers.
