@@ -6,6 +6,7 @@ import project3 from "./project-images/todo.jpg";
 import project4 from "./project-images/tkinter.jpg";
 import project5 from "./project-images/tkinter2.jpg";
 import project6 from "./project-images/axiom.jpg";
+import project7 from "./project-images/project7.jpg";
 import tkinter from "./pyprojects/tkinter_add_numbers.exe";
 import tkinter2 from "./pyprojects/tkinter_convert_temperature.exe";
 import "../../App.css";
@@ -198,13 +199,48 @@ const Projects = () => {
             </Grid>
             <Grid item md={4}>
               <Box className="box">
-                <img src={project5} alt="Temperature" className={classes.img} />
-                <h3 className={classes.title}>Tkinter Convert Temperature</h3>
+                <img src={project7} alt="King James" className={classes.img} />
+                <h3 className={classes.title}>King James Challenge</h3>
                 <p className={classes.description}>
-                  A python/tkinter GUI app. Convert temperature from degrees
-                  Celsius to Fahrenheit and vice versa.
+                  Challenge designed by King James Digital. Single page html and
+                  scss.
                 </p>
-                <a href={tkinter2} download>
+                <a
+                  href="https://vibrant-dijkstra-21e2bd.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    className={classes.button}
+                  >
+                    View Site
+                  </Button>
+                </a>
+                <a
+                  href="https://github.com/JamBro22/king-james-challenge.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outlined"
+                    size="medium"
+                    className={classes.repo}
+                  >
+                    View Repo
+                  </Button>
+                </a>
+              </Box>
+            </Grid>
+            <Grid item md={4}>
+              <Box className="box">
+                <img src={project4} alt="Add Numbers" className={classes.img} />
+                <h3 className={classes.title}>Tkinter Add Numbers</h3>
+                <p className={classes.description}>
+                  A python GUI app using tkinter. Add two numbers.
+                </p>
+                <a href={tkinter} download>
                   <Button
                     variant="outlined"
                     size="medium"
@@ -230,12 +266,13 @@ const Projects = () => {
             </Grid>
             <Grid item md={4}>
               <Box className="box">
-                <img src={project4} alt="Add Numbers" className={classes.img} />
-                <h3 className={classes.title}>Tkinter Add Numbers</h3>
+                <img src={project5} alt="Temperature" className={classes.img} />
+                <h3 className={classes.title}>Tkinter Convert Temperature</h3>
                 <p className={classes.description}>
-                  A python GUI app using tkinter. Add two numbers.
+                  A python/tkinter GUI app. Convert temperature from degrees
+                  Celsius to Fahrenheit and vice versa.
                 </p>
-                <a href={tkinter} download>
+                <a href={tkinter2} download>
                   <Button
                     variant="outlined"
                     size="medium"
