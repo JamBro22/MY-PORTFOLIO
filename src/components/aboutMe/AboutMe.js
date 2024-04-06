@@ -44,7 +44,7 @@ const AboutMe = () => {
               <h2 className="title">Full Name:</h2>
               <h3 className="details">Jamie Brown </h3>
               <h2 className="title">Age:</h2>
-              <h3 className="details">23 years</h3>
+              <h3 className="details">27 years</h3>
               <h2 className="title">Location:</h2>
               <h3 className="details">Steenberg/Retreat, Cape town</h3>
             </Paper>
